@@ -16,5 +16,12 @@ function getHumanChoice(){
     let playerChoice = prompt("Enter Rock,Paper,or Scissors :");
     playerChoice = playerChoice.toLowerCase();
     console.log(playerChoice);
+    if(playerChoice === "rock"){
+        return "rock";
+    }else if(playerChoice === "paper"){
+        return "paper";
+    }else {
+        return "scissors";
+    }
 }
 getHumanChoice();
