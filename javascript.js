@@ -12,7 +12,7 @@ function getComputerChoice(){
     }
 }
 
-console.log(getComputerChoice());
+
 
 function getHumanChoice(){
 
@@ -26,7 +26,7 @@ function getHumanChoice(){
         return "scissors";
     }
 }
-console.log(getHumanChoice());
+
 
 function playRound(humanChoice, computerChoice){
     if(humanChoice === computerChoice){
@@ -42,5 +42,5 @@ function playRound(humanChoice, computerChoice){
 
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
-
+console.log(getComputerChoice());
 playRound(humanSelection, computerSelection);
