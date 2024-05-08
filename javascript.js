@@ -31,7 +31,10 @@ console.log(getHumanChoice());
 function playRound(humanChoice, computerChoice){
     if(humanChoice === computerChoice){
         console.log("Draw");
-    }else if()
+    }else if((humanChoice === "rock" && computerChoice === "scissors") || (humanChoice === "scissors" && computerChoice === "paper") || (humanChoice === "paper" && computerChoice === "rock")){
+        humanScore++;
+        console.log("Player wins the round!")
+    }
 }
 
 const humanSelection = getHumanChoice();
