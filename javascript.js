@@ -12,5 +12,6 @@ function getComputerChoice(){
 console.log(getComputerChoice());
 
 function getHumanChoice(){
-    
+
+    let playerChoice = prompt("Enter Rock,Paper,or Scissors :");
 }
