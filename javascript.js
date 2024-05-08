@@ -22,8 +22,10 @@ function getHumanChoice(){
         return "rock";
     }else if(playerChoice === "paper"){
         return "paper";
-    }else {
+    }else if(playerChoice === "scissors"){
         return "scissors";
+    }else {
+        getHumanChoice();
     }
 }
 
@@ -31,16 +33,19 @@ function getHumanChoice(){
 function playRound(humanChoice, computerChoice){
     if(humanChoice === computerChoice){
         console.log("Draw");
+        console.log(computerChoice);
     }else if((humanChoice === "rock" && computerChoice === "scissors") || (humanChoice === "scissors" && computerChoice === "paper") || (humanChoice === "paper" && computerChoice === "rock")){
         humanScore++;
         console.log("Player wins the round!")
+        console.log(computerChoice);
     }else {
         computerScore++;
         console.log("Player lost the round!");
+        console.log(computerChoice)
     }
 }
 
 const humanSelection = getHumanChoice();
 const computerSelection = getComputerChoice();
-console.log(getComputerChoice());
+
 playRound(humanSelection, computerSelection);
