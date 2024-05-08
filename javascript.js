@@ -1,3 +1,6 @@
+let humanScore = 0;
+let computerScore = 0;
+
 function getComputerChoice(){
     let cpu = Math.ceil(Math.random() * 3);
     if(cpu == 1){
@@ -15,7 +18,6 @@ function getHumanChoice(){
 
     let playerChoice = prompt("Enter Rock,Paper,or Scissors :");
     playerChoice = playerChoice.toLowerCase();
-    console.log(playerChoice);
     if(playerChoice === "rock"){
         return "rock";
     }else if(playerChoice === "paper"){
@@ -24,4 +26,4 @@ function getHumanChoice(){
         return "scissors";
     }
 }
-getHumanChoice();
+console.log(getHumanChoice());
