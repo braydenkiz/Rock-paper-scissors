@@ -27,3 +27,7 @@ function getHumanChoice(){
     }
 }
 console.log(getHumanChoice());
+
+function playRound(humanChoice, computerChoice){
+    
+}
