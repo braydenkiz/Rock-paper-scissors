@@ -1,5 +1,4 @@
-let humanScore = 0;
-let computerScore = 0;
+
 
 function getComputerChoice(){
     let cpu = Math.ceil(Math.random() * 3);
@@ -51,5 +50,6 @@ const computerSelection = getComputerChoice();
 playRound(humanSelection, computerSelection);
 
 function playGame(){
-    
+    let humanScore = 0;
+    let computerScore = 0;
 }
