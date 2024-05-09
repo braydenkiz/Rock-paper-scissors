@@ -28,13 +28,6 @@ function getHumanChoice(){
     }
 }
 
-
-
-
-
-
-playRound(humanSelection, computerSelection);
-
 function playGame(){
     let humanScore = 0;
     let computerScore = 0;
@@ -59,6 +52,8 @@ function playGame(){
     playRound(getHumanChoice(),getComputerChoice());
     playRound(getHumanChoice(),getComputerChoice());
     playRound(getHumanChoice(),getComputerChoice());
+    console.log(humanScore);
+    console.log(computerScore);
 
     if(humanScore > computerScore){
         console.log("Player wins the game!!!");
@@ -67,3 +62,4 @@ function playGame(){
     }
     
 }
+playGame();
