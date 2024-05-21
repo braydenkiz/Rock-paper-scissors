@@ -47,19 +47,11 @@ function playGame(){
         }
     }
 
-    playRound(getHumanChoice(),getComputerChoice());
-    playRound(getHumanChoice(),getComputerChoice());
-    playRound(getHumanChoice(),getComputerChoice());
-    playRound(getHumanChoice(),getComputerChoice());
-    playRound(getHumanChoice(),getComputerChoice());
-    console.log(humanScore);
-    console.log(computerScore);
+   
+    
 
-    if(humanScore > computerScore){
-        console.log("Player wins the game!!!");
-    }else {
-        console.log("Player loses the game :(");
-    }
+   
+    
     
 }
 playGame();
