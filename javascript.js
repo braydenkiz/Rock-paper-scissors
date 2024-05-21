@@ -13,24 +13,13 @@ function getComputerChoice(){
 
 
 
-function getHumanChoice(){
 
-    let playerChoice = prompt("Enter Rock,Paper,or Scissors :");
-    playerChoice = playerChoice.toLowerCase();
-    if(playerChoice === "rock"){
-        return "rock";
-    }else if(playerChoice === "paper"){
-        return "paper";
-    }else if(playerChoice === "scissors"){
-        return "scissors";
-    }else {
-        getHumanChoice();
-    }
-}
 
 const rockbtn = document.querySelector("#rock");
 const paperbtn = document.querySelector("#paper");
 const scissorsbtn = document.querySelector("#scissors");
+
+
 
 function playGame(){
     let humanScore = 0;
