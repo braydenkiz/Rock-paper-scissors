@@ -28,6 +28,10 @@ function getHumanChoice(){
     }
 }
 
+const rockbtn = document.querySelector("#rock");
+const paperbtn = document.querySelector("#paper");
+const scissorsbtn = document.querySelector("#scissors");
+
 function playGame(){
     let humanScore = 0;
     let computerScore = 0;
