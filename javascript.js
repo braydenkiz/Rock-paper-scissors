@@ -19,6 +19,8 @@ const rockbtn = document.querySelector("#rock");
 const paperbtn = document.querySelector("#paper");
 const scissorsbtn = document.querySelector("#scissors");
 
+rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
+
 
 
 function playGame(){
