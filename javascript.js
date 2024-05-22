@@ -20,6 +20,9 @@ const rockbtn = document.querySelector("#rock");
 const paperbtn = document.querySelector("#paper");
 const scissorsbtn = document.querySelector("#scissors");
 
+const humanScoreDisplay = document.querySelector("#human");
+const cpuScoreDisplay = document.querySelector("#cpu");
+
 
 
 
