@@ -75,7 +75,7 @@ function gameWon(){
     if(computerScore == 5){
         
         let winner = document.createElement("div");
-        winner.textContent = "Winner";
+        winner.textContent = " You Win!";
        
 
         gameResults.appendChild(winner);
