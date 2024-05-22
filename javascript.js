@@ -1,5 +1,6 @@
 
-
+let computerScore = 0;
+let humanScore = 0;
 function getComputerChoice(){
     let cpu = Math.ceil(Math.random() * 3);
     if(cpu == 1){
@@ -41,6 +42,14 @@ const scissorsbtn = document.querySelector("#scissors");
     
 
 
-rockbtn.addEventListener("click", playRound("rock", getComputerChoice()));
-paperbtn.addEventListener("click", playRound("paper", getComputerChoice()));
-scissorsbtn.addEventListener("click", playRound("scissors", getComputerChoice()));
+rockbtn.addEventListener("click", () => {
+    playRound("rock", getComputerChoice());
+});
+
+paperbtn.addEventListener("click", () => {
+    playRound("paper", getComputerChoice());
+});
+
+scissorsbtn.addEventListener("click", () => {
+    playRound("scissors", getComputerChoice());
+});
