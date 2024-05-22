@@ -51,18 +51,33 @@ rockbtn.addEventListener("click", () => {
     playRound("rock", getComputerChoice());
     humanScoreDisplay.textContent = "Human Score: " + humanScore;
     cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
+    gameWon();
 });
 
 paperbtn.addEventListener("click", () => {
     playRound("paper", getComputerChoice());
     humanScoreDisplay.textContent = "Human Score: " + humanScore;
     cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
+    gameWon();
 });
 
 scissorsbtn.addEventListener("click", () => {
     playRound("scissors", getComputerChoice());
     humanScoreDisplay.textContent = "Human Score: " + humanScore;
     cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
+    gameWon();
 
 
 });
+
+function gameWon(){
+
+    if(computerScore == 5){
+        
+        let winner = document.createElement("div");
+        winner.textContent = "Winner";
+       
+
+        gameResults.appendChild(winner);
+    }
+}
