@@ -23,6 +23,8 @@ const scissorsbtn = document.querySelector("#scissors");
 const humanScoreDisplay = document.querySelector("#human");
 const cpuScoreDisplay = document.querySelector("#cpu");
 
+const gameResults = document.querySelector("#results");
+
 
 
 
@@ -61,4 +63,6 @@ scissorsbtn.addEventListener("click", () => {
     playRound("scissors", getComputerChoice());
     humanScoreDisplay.textContent = "Human Score: " + humanScore;
     cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
+
+
 });
