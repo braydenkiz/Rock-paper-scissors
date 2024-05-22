@@ -23,9 +23,7 @@ rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
 
 
 
-function playGame(){
-    let humanScore = 0;
-    let computerScore = 0;
+
 
     function playRound(humanChoice, computerChoice){
         if(humanChoice === computerChoice){
@@ -48,5 +46,6 @@ function playGame(){
    
     
     
-}
-playGame();
+
+
+rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
