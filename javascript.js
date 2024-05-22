@@ -39,13 +39,9 @@ rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
             console.log(computerChoice)
         }
     }
-
-   
-    
-
-   
-    
     
 
 
 rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
+paperbtn.addEventListener("click", playRound("paper", getComputerChoice));
+sccisorsbtn.addEventListener("click", playRound("scissors", getComputerChoice));
