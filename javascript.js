@@ -19,7 +19,6 @@ const rockbtn = document.querySelector("#rock");
 const paperbtn = document.querySelector("#paper");
 const scissorsbtn = document.querySelector("#scissors");
 
-rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
 
 
 
@@ -42,6 +41,6 @@ rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
     
 
 
-rockbtn.addEventListener("click", playRound("rock", getComputerChoice));
-paperbtn.addEventListener("click", playRound("paper", getComputerChoice));
-sccisorsbtn.addEventListener("click", playRound("scissors", getComputerChoice));
+rockbtn.addEventListener("click", playRound("rock", getComputerChoice()));
+paperbtn.addEventListener("click", playRound("paper", getComputerChoice()));
+scissorsbtn.addEventListener("click", playRound("scissors", getComputerChoice()));
