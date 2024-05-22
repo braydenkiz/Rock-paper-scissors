@@ -48,12 +48,17 @@ const cpuScoreDisplay = document.querySelector("#cpu");
 rockbtn.addEventListener("click", () => {
     playRound("rock", getComputerChoice());
     humanScoreDisplay.textContent = "Human Score: " + humanScore;
+    cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
 });
 
 paperbtn.addEventListener("click", () => {
     playRound("paper", getComputerChoice());
+    humanScoreDisplay.textContent = "Human Score: " + humanScore;
+    cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
 });
 
 scissorsbtn.addEventListener("click", () => {
     playRound("scissors", getComputerChoice());
+    humanScoreDisplay.textContent = "Human Score: " + humanScore;
+    cpuScoreDisplay.textContent = "Computer Score: " + computerScore;
 });
