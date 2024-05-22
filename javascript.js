@@ -47,6 +47,7 @@ const cpuScoreDisplay = document.querySelector("#cpu");
 
 rockbtn.addEventListener("click", () => {
     playRound("rock", getComputerChoice());
+    humanScoreDisplay.textContent = "Human Score: " + humanScore;
 });
 
 paperbtn.addEventListener("click", () => {
