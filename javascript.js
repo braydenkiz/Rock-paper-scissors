@@ -78,6 +78,12 @@ function gameWon(){
         
         winner.textContent = " You Win!";
         gameResults.appendChild(winner);
+        winner.style.width = "500px";
+        winner.style.height = "500px";
+        winner.style.margin = "50px";
+        winner.style.backgroundColor = "limegreen";
+        
+
        
 
         
