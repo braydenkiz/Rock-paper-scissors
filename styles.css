@@ -26,3 +26,9 @@ h1 {
     background-color: navy;
     color: yellow;
 }
+
+#results {
+    background-color: orange;
+    height: 100px;
+}
+
