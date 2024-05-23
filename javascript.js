@@ -72,12 +72,18 @@ scissorsbtn.addEventListener("click", () => {
 
 function gameWon(){
 
-    if(computerScore == 5){
+    let winner = document.createElement("div");
+    if(humanScore == 5){
         
-        let winner = document.createElement("div");
+        
         winner.textContent = " You Win!";
        
 
         gameResults.appendChild(winner);
+    }else if (computerScore == 5){
+
+        winner.textContent = " You Lose!";
+    }else{
+        
     }
 }
