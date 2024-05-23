@@ -7,15 +7,15 @@
 .container {
     display: flex;
     justify-content: space-around;
-    background-color: navy;
-    height: 500px;
+    background-color: black;
+    height: 400px;
 }
 
 button {
     height: 150px;
     width: 150px;
     margin: 100px 0;
-    background-color: orange;
+    background-color: lightgray;
     font-size: 25px;
     font-weight: bold;
     color: white;
@@ -23,12 +23,12 @@ button {
 
 h1 {
     text-align: center;
-    background-color: navy;
-    color: yellow;
+    background-color: black;
+    color: white;
 }
 
 #results {
-    background-color: orange;
+    background-color: lightgray;
     height: 100px;
 }
 
@@ -36,4 +36,15 @@ h1 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+}
+
+h2, h3 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h3 {
+    padding-bottom: 50px;
+    
 }
