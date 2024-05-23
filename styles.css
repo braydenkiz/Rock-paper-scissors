@@ -16,6 +16,9 @@ button {
     width: 150px;
     margin: 100px 0;
     background-color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
 
 h1 {
